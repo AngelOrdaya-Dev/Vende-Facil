@@ -780,3 +780,28 @@ nav {
     .hero-stats { flex-direction: column; gap: 1.5rem; }
     .category-card-right { flex-direction: column; }
 }
+
+/* ===================== CONTACT RESPONSIVE CLASSES ===================== */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 2.5rem;
+}
+.contact-sidebar-row {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 900px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+@media (max-width: 500px) {
+    .contact-sidebar-row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+

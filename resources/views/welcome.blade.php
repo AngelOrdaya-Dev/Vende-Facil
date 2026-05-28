@@ -272,7 +272,7 @@
             </p>
         </div>
 
-        <div style="display:grid; grid-template-columns: 3fr 2fr; gap:2.5rem;">
+        <div class="contact-grid">
             {{-- Formulario --}}
             <div style="background:var(--bg-card); padding:3rem; border-radius:var(--radius-md); border:1px solid var(--border-color);" class="reveal">
                 <h3 style="font-size:1.75rem; margin-bottom:2.5rem;">Envíenos un mensaje</h3>
@@ -317,7 +317,7 @@
                 </div>
 
                 {{-- Phone & Email --}}
-                <div style="display:flex; gap:1rem;">
+                <div class="contact-sidebar-row">
                     <div style="flex:1; background:var(--bg-card); padding:1.5rem; border-radius:var(--radius-md); border:1px solid var(--border-color); text-align:center;">
                         <i data-lucide="phone" style="color:var(--color-gold); margin-bottom:0.75rem; width:20px; height:20px;"></i>
                         <div style="font-size:0.65rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--text-secondary); margin-bottom:0.3rem;">Teléfono</div>
