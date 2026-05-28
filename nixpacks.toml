@@ -19,6 +19,9 @@ nixPkgs = [
   "nodejs_20",
   "nodePackages.npm"
 ]
+cmds = [
+  "curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer"
+]
 
 [phases.build]
 cmds = [
