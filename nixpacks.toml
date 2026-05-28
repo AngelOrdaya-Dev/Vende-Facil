@@ -5,7 +5,7 @@ NODE_ENV = "production"
 [phases.setup]
 nixPkgs = [
   "php84",
-  "composer",
+  "php84Packages.composer",
   "php84Extensions.pdo",
   "php84Extensions.pdo_sqlite",
   "php84Extensions.sqlite3",
