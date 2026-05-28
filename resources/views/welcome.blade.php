@@ -274,10 +274,10 @@
 
         <div class="contact-grid">
             {{-- Formulario --}}
-            <div style="background:var(--bg-card); padding:3rem; border-radius:var(--radius-md); border:1px solid var(--border-color);" class="reveal">
+            <div class="contact-card-box reveal">
                 <h3 style="font-size:1.75rem; margin-bottom:2.5rem;">Envíenos un mensaje</h3>
                 <form id="contactForm">
-                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem;">
+                    <div class="form-row">
                         <div class="form-group">
                             <label class="form-label">Nombre Completo</label>
                             <input type="text" id="contactName" class="form-input" placeholder="Su nombre aquí" required>
